@@ -202,10 +202,12 @@
         justify-content: center;
         background-image: linear-gradient(to left, rgb(114, 223, 114), white, white, rgb(126, 255, 126));
     }
+    /*
     .navegador img {
         width: 100px;
         height: 95px;
     }
+    */
     .container-fluid input {
         width: 200px;
         height: 25px;
