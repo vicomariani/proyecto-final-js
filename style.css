@@ -196,6 +196,7 @@
 
 
   @media screen and (max-width: 767px) {
+    /*
     .navegador nav div {
         display: flex;
         flex-direction: column;
@@ -213,8 +214,7 @@
         font-weight: 50;
         margin: 0px 10px 15px 10px;
       }
-
-
+      */
 
     #productos {
         display: grid;
@@ -223,8 +223,6 @@
         grid-row-gap: 30px;
         height: auto;
       }
-
-
 
   }
 
