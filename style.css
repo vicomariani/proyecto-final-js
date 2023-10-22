@@ -223,9 +223,13 @@ footer img {
     }
     #productos {
         grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
     }
     main {
         background-image: linear-gradient(to left, rgb(127, 234, 127), white,rgb(130, 234, 130));
+    }
+    main ul {
+        justify-content: center;
     }
     main h1 {
         margin-bottom: 20px;        
