@@ -7,7 +7,7 @@ main {
     width: auto;
     margin: auto;
     padding: 20px 50px;
-    background-image: linear-gradient(to left, rgb(42, 177, 42), white, white, rgb(42, 177, 42));
+    background-image: linear-gradient(to left, rgb(95, 209, 95), white, white, rgb(114, 201, 114));
 }
 main h1 {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -17,6 +17,7 @@ main h1 {
     font-size: 30px;
 }
 main ul {
+    padding: 0px;
     text-align: center;  
 }
 .navegador nav div {
@@ -83,7 +84,7 @@ section h1 span {
     text-decoration: none;
     display: inline-block;
     border-radius: 15px;    
-    border: 1px solid white;
+    border: 1px solid rgb(94, 233, 94);
     transition: all 0.2s;
     cursor: pointer;
 }
@@ -228,8 +229,10 @@ footer img {
     main {
         background-image: linear-gradient(to left, rgb(127, 234, 127), white,rgb(130, 234, 130));
     }
-    main ul {
-        justify-content: center;
+    .boton {
+        display: block;
+        width: 160px;
+        margin: 10px auto;
     }
     main h1 {
         margin-bottom: 20px;        
