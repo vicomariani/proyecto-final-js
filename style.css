@@ -214,7 +214,7 @@
     }
 
     main {
-        background-image: linear-gradient(to left, rgb(97, 234, 97), white, rgb(90, 211, 90));
+        background: white;
     }
   }
   
