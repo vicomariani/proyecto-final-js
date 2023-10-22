@@ -200,22 +200,21 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        background-image: linear-gradient(to left, rgb(114, 223, 114), white, white, rgb(126, 255, 126));
+        background-image: linear-gradient(to left, rgb(114, 223, 114), white, rgb(126, 255, 126));
     }
     .container-fluid input {
-        width: 200px;
-        height: 25px;
+        width: 230px;
+        height: 27px;
         font-size: 14px;    
         font-weight: 50;
         margin: 0px 10px 15px 10px;
-      }
+    }
     #productos {
-        display: grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-column-gap: 10px;
-        grid-row-gap: 30px;
-        height: auto;
-      }
+    }
 
+    main {
+        background-image: linear-gradient(to left, rgb(97, 234, 97), white, rgb(90, 211, 90));
+    }
   }
   
