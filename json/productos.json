@@ -1,0 +1,86 @@
+[
+    {
+      "id": 1,
+      "nombre": "AMOENA",
+      "precio": 2500,
+      "categoria": "Interior",
+      "imagen": "amoena.png"
+    },
+    {
+      "id": 2,
+      "nombre": "DIENFFENBACHIA",
+      "precio": 3900,
+      "categoria": "Exterior",
+      "imagen": "dienffenbachia.png"
+    },
+    {
+      "id": 3,
+      "nombre": "DISCHIDIA",
+      "precio": 3400,
+      "categoria": "Exterior",
+      "imagen": "dischidia.png"
+    },
+    {
+      "id": 4,
+      "nombre": "DRACAENA",
+      "precio": 3500,
+      "categoria": "Exterior",
+      "imagen": "dracaena.png"
+    },
+    {
+      "id": 5,
+      "nombre": "HELECHO",
+      "precio": 4000,
+      "categoria": "Interior",
+      "imagen": "helecho.png"
+    },
+    {
+      "id": 6,
+      "nombre": "LAZO DE AMOR",
+      "precio": 3200,
+      "categoria": "Exterior",
+      "imagen": "lazo_de_amor.png"
+    },
+    {
+      "id": 7,
+      "nombre": "LIRIO DE LA PAZ",
+      "precio": 4000,
+      "categoria": "Interior",
+      "imagen": "lirio_de_la_paz.png"
+    },
+    {
+      "id": 8,
+      "nombre": "PALMA RAPHIS",
+      "precio": 4500,
+      "categoria": "Exterior",
+      "imagen": "palma_raphis.png"
+    },
+    {
+      "id": 9,
+      "nombre": "PALMERA BAMBU",
+      "precio": 4900,
+      "categoria": "Exterior",
+      "imagen": "palmera_bambu.png"
+    },
+    {
+      "id": 10,
+      "nombre": "PALMERA DE SALON",
+      "precio": 4600,
+      "categoria": "Interior",
+      "imagen": "palmera_de_salon.png"
+    },
+    {
+      "id": 11,
+      "nombre": "PUNTA DE FLECHA",
+      "precio": 3900,
+      "categoria": "Interior",
+      "imagen": "punta_de_flecha.png"
+    },
+    {
+      "id": 12,
+      "nombre": "SANSEVIERIA",
+      "precio": 3500,
+      "categoria": "Interior",
+      "imagen": "sansevieria.png"
+    }
+]

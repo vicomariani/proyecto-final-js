@@ -1,0 +1,225 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  } 
+  main {
+    width: auto;
+    margin: auto;
+    padding: 20px 50px;
+    background-image: linear-gradient(to left, rgb(42, 177, 42), white, white, rgb(42, 177, 42));
+  }
+  main ul {
+    text-align: center;  
+  }
+  .navegador nav div {
+    background-image: linear-gradient(to left, white, rgb(90, 220, 90), white);
+  }
+  .navegador img {
+    width: 140px;
+    height: 120px;
+    margin: 5px 25px;
+  }
+  .container-fluid input {
+    width: 40%;
+    height: 40px;
+    padding: 10px 20px;
+    font-size: 17px;    
+    border-radius: 20px;
+    border: 1px solid rgb(41, 186, 41);
+    font-weight: 100;
+    margin-right: 150px;
+  }
+  section {
+    position: fixed;
+    box-shadow: -6px -2px 25px -13px green;
+    width: 340px;
+    height: 100%;
+    top: 0;
+    right: 0;
+    padding: 20px;
+    transition: all 0.2s;
+    background-color: white;
+  }
+  section h1 {
+    position: absolute;
+    top: 40px;
+    right: 360px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    box-shadow: 0px 0px 14px 0px green;
+    background: url("img/carrito.png") no-repeat rgb(19, 169, 19);
+    background-size: 65%;
+    background-position: 7px center;
+  }
+  section h1 span {
+    display: block;
+    background-color: white;
+    border-radius: 150px;
+    padding: 5px;
+    width: 25px;
+    text-align: center;
+    font-size: 14px;
+    margin: -10px 0 0 38px;
+    color: gray;
+    box-shadow: 0px 0px 16px 0px rgb(27, 184, 27);
+  }
+  
+  .btnAgregar,
+  .btnQuitar,
+  .boton {    
+    color: green;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15px;    
+    border: 1px solid white;
+    transition: all 0.2s;
+    cursor: pointer;
+  }
+.boton {
+    width: 150px;
+    padding: 5px 15px;
+    margin: 10px 25px;
+}
+  .btnAgregar,
+  .btnQuitar {
+    background: rgb(22, 192, 22);
+    color: white;
+    width: 160px;
+    text-align: center;
+    padding: 3px;
+  }  
+  .btnAgregar:hover,
+  .btnQuitar:hover,
+  .boton:hover {
+    border: 1px solid white;
+    scale: 1.05;
+  }
+  .boton.seleccionado {
+    border: 1px solid rgb(179, 182, 179);
+    background: rgb(84, 207, 84);
+    color: white;
+    
+  }
+  .productoCarrito {
+    border-bottom: 2px dashed green;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    line-height: 24px;
+  }
+  .productoCarrito h2 {
+    font-size: 20px;
+    color: green;
+    margin-bottom: 8px;
+  }
+  .productoCarrito p {
+    margin: 3px;
+  }
+  .ocultar {
+    right: -340px;
+    transition: all 0.2s;
+  }
+  .total {
+    color: rgb(148, 148, 148);
+    margin: 5px;
+  } 
+ .total h2 {
+    font-size: 25px;
+ }
+  #botonComprar {
+    background-color: rgb(54, 180, 54);
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 5px;
+    margin: 0px;
+  }
+  
+  #productos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 30px;
+    height: auto;
+  }
+  .producto .btnAgregar,
+  .producto .boton {
+    margin: auto;
+    display: block;
+    text-align: center;
+  }
+  .producto {
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    margin: auto 5px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0px 0px 7px 0px rgb(27, 184, 27);
+  }
+  .producto h2 {
+    font-size: 17px;
+    margin: 7px auto 5px auto;
+    color: rgb(153, 153, 153);
+  }
+  .producto .precio {
+    font-size: 18px;
+    color: rgb(153, 153, 153);
+    margin-bottom: 2px;
+    
+  }
+  .producto .imagen {
+    display: flex;
+    justify-content: center;
+    min-height: 100px;
+    
+  }
+  .producto .imagen img {
+    margin-bottom: 10px;
+    max-height: 220px;
+  }
+  
+  .producto:hover {
+    border: 1px solid white;
+    box-shadow: 0px 0px 14px 0px rgb(0, 115, 42);
+  }
+  #scroll {
+    max-height: 96%;
+    overflow-y: auto;
+    padding-left: 5px;
+  }
+
+
+  @media screen and (max-width: 767px) {
+    .navegador nav div {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .navegador img {
+        width: 100px;
+        height: 90px;
+        margin: 5px 15px;
+    }
+    #productos {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 30px;
+        height: auto;
+      }
+
+
+
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+
+
+
+  }
+
