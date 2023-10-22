@@ -196,12 +196,12 @@
 
 
   @media screen and (max-width: 767px) {
-    /*
+    
     .navegador nav div {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        background-image: linear-gradient(to left, rgb(90, 220, 90), white, rgb(90, 220, 90));
+        background-image: linear-gradient(to left, rgb(114, 223, 114), white, white, rgb(126, 255, 126));
     }
     .navegador img {
         width: 100px;
@@ -214,9 +214,17 @@
         font-weight: 50;
         margin: 0px 10px 15px 10px;
       }
-      */
+      main {
+        padding: 20px 30px;
+        background-image: linear-gradient(to left, rgb(96, 228, 96), white, rgb(127, 227, 127));
+      }
+      section h1 {
+        top: 30px;
+        width: 40px;
+        height: 40px;
+        box-shadow: 0px 0px 14px 0px white;
 
-      
+      }  
     #productos {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -226,10 +234,3 @@
       }
 
   }
-
-  @media screen and (min-width: 768px) and (max-width: 1023px) {
-
-
-
-  }
-
