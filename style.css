@@ -197,14 +197,25 @@
 
   @media screen and (max-width: 767px) {
     .navegador nav div {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-image: linear-gradient(to left, rgb(90, 220, 90), white, rgb(90, 220, 90));
     }
     .navegador img {
         width: 100px;
-        height: 90px;
-        margin: 5px 15px;
+        height: 95px;
     }
+    .container-fluid input {
+        width: 200px;
+        height: 25px;
+        font-size: 14px;    
+        font-weight: 50;
+        margin: 0px 10px 15px 10px;
+      }
+
+
+
     #productos {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
