@@ -212,7 +212,7 @@ section h1 span {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        background-image: linear-gradient(to left, rgb(114, 223, 114), white, rgb(126, 255, 126));
+        background-image: linear-gradient(to left, #CCFF33, white, #CCFF33);
     }
     .container-fluid input {
         width: 230px;
@@ -226,7 +226,7 @@ section h1 span {
         justify-content: center;
     }
     main {
-        background-image: linear-gradient(to left, rgb(127, 234, 127), white,rgb(130, 234, 130));
+        background-image: linear-gradient(to left, #CCFF33, white,#CCFF33);
     }
     .boton {
         display: block;
