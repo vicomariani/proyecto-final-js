@@ -7,7 +7,7 @@ main {
     width: auto;
     margin: auto;
     padding: 20px 50px;
-    background-image: linear-gradient(to left, rgb(95, 209, 95), white, white, rgb(114, 201, 114));
+    background-image: linear-gradient(to left, #CCFF33, white, white, #CCFF33);
 }
 main h1 {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -21,7 +21,7 @@ main ul {
     text-align: center;  
 }
 .navegador nav div {
-    background-image: linear-gradient(to left, white, rgb(90, 220, 90), white);
+    background-image: linear-gradient(to left, white, #CCFF33, white);
 }
 .navegador img {
     width: 140px;
@@ -196,18 +196,17 @@ section h1 span {
     overflow-y: auto;
     padding-left: 5px;
 }
+.footer {
+    background-image: linear-gradient(to left, #CCFF33, white, #CCFF33);
+    padding: 10px;
+}
 .footer h3 {
     font-size: 15px;
-    color: rgb(34, 170, 34);
+    color: rgb(150, 151, 150);
     text-align: center;
     margin-top: 10px;
 }
-hr {
-    color: green;
-}
-footer img {
-    text-align: center;
-}
+
 @media screen and (max-width: 767px) {
     .navegador nav div {
         display: flex;
