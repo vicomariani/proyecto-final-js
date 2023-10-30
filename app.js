@@ -206,7 +206,7 @@ class Producto {
           gravity: "bottom",
           position: "center",
           style: {
-            background: "linear-gradient(to right, rgb(84, 219, 84), rgb(178, 178, 178))",
+            background: "linear-gradient(to right, rgb(84, 219, 84), #CCFF33)",
           },
         }).showToast();
       });
